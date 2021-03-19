@@ -29,16 +29,19 @@
       :key="id"
       :id="id"
     />
-    <router-link
-      class="p-4 ml-auto"
-      :to="{ name: 'Search' }"
-    >
-      <img
-        src="../assets/plus.svg"
-        class="bg-gray-800 p-3 w-11 rounded-full"
-        alt=""
-      >
-    </router-link>
+    <div class="flex justify-between items-center p-4">
+      <button
+        class="btn bg-blue-500 text-gray-50"
+        @click="updateHoldingMarkets"
+      >Update coins</button>
+      <router-link :to="{ name: 'Search' }">
+        <img
+          src="../assets/plus.svg"
+          class="bg-gray-800 p-3 w-11 rounded-full"
+          alt=""
+        >
+      </router-link>
+    </div>
   </div>
 </template>
 
