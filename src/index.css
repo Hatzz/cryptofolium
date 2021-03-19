@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply px-4 py-2 text-xl font-medium rounded-md;
+}
+
+@tailwind utilities;

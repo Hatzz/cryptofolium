@@ -1,5 +1,8 @@
-# portfolio
+# Cryptofolium
 
+A simple app to track the worth of your coins.  
+Built using the coingecko api, vue, tailwindcss and heroicons.  
+Thank you for the favicon Vitaly Gorbachev [link](https://www.flaticon.com/free-icon/nodes_2165676)
 ## Project setup
 ```
 npm install
